@@ -11,7 +11,8 @@ import os
 MODELS = [
     "all-MiniLM-L6-v2",
     "all-mpnet-base-v2",
-    "paraphrase-multilingual-MiniLM-L12-v2"
+    "paraphrase-multilingual-MiniLM-L12-v2",
+    "pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb"
 ]
 
 def load_pairs(path="data/concept_pairs.json"):
